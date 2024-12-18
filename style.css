@@ -314,7 +314,7 @@ body {
     body {
         background-color: hsl(0, 11%, 96%);
         overflow: auto;
-        padding-top: 10rem;
+        padding-top: 6rem;
         padding-left: 5rem;
         padding-bottom: 0;
     }
