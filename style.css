@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 11%, 96%);
+    overflow: auto;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-bottom: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    font-family: "DM Sans";
+}
+
+.container {
+    display: grid;
+    max-width: 100%;
+    width: 100%;
+}
+
+.card-social-media {
+    background-color: hsl(256, 67%, 59%);
+    max-width: 30rem;
+    width: 21rem;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+
+.social-media-title {
+    color: hsl(0, 0%, 100%);
+    max-width: 20rem;
+    width: 16rem;
+    font-size: 2.8em;
+    font-weight: 500;
+    margin-left: 1rem;
+    text-align: center;
+    line-height: 2.8rem;
+}
+
+#ten  {
+    color: hsl(39, 100%, 71%);
+    font-weight: 500;
+}
+
+#faster {
+    font-style: italic;
+}
+
+.stars-img {
+    max-width: 20rem;
+    width: 13rem;
+    margin-top: -1rem;
+    margin-left: 2.5rem;
+}
+
+.stars-amount {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    padding-top: 0.25rem;
+    padding-bottom: 2rem;
+}
+
+.card-platforms {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 30rem;
+    width: 21rem;
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+
+.platforms-img {
+    max-width: 20rem;
+    width: 18rem;
+}
+
+.platforms-title {
+    color: hsl(0, 0%, 7%);
+    max-width: 25rem;
+    width: 22rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.card-consistent-schedule {
+    background-color: hsl(39, 100%, 71%);
+    max-width: 30rem;
+    width: 21rem;
+    height: auto;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+
+.consistent-schedule-title {
+    color: hsl(0, 0%, 7%);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.consistent-schedule-img {
+    max-width: 20rem;
+    width: 14rem;
+    top: 1rem;
+    margin-top: 0.25rem;
+    padding-bottom: 0;
+}
+
+.card-schedule-posts {
+    background-color: hsl(254, 88%, 90%);
+    max-width: 30rem;
+    width: 21rem;
+    height: auto;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+
+.schedule-posts-title {
+    max-width: 35rem;
+    width: 35rem;
+    font-size: 1.45rem;
+    font-weight: 600;
+}
+
+.schedule-posts-img {
+    max-width: 20rem;
+    width: 19rem;
+    margin-left: -0.55rem;
+    padding: 0;
+}
+
+.schedule-posts-paragraph {
+    color: hsl(0, 0%, 7%);
+    font-size: 1.15rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card-grow-followers {
+    background-color: hsl(256, 67%, 59%);
+    max-width: 30rem;
+    width: 21rem;
+    height: auto;
+    margin-top: 1rem;
+    padding-top: 1.25rem;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.25rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+
+.grow-followers-img {
+    max-width: 15rem;
+    width: 13rem;
+    margin-left: 2rem;
+}
+
+.grow-followers-title {
+    color: hsl(0, 0%, 100%);
+    max-width: 30rem;
+    width: 15rem;
+    font-size: 1.85rem;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 2rem;
+    line-height: 1.9rem;
+}
+
+.card-faster-grow {
+    background-color: hsl(0, 0%, 100%);
+    opacity: 1;
+    max-width: 30rem;
+    width: 21rem;
+    height: auto;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1.25rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+    border: 0.1rem solid hsl(0, 0%, 100%);
+}
+
+.faster-grow-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.second-line-faster-grow-title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: -1rem;
+}
+
+.faster-grow-img {
+    max-width: 15rem;
+    width: 12rem;
+    padding-top: 1rem;
+}
+
+.card-quicker-content {
+    background-color: hsl(31, 66%, 93%);
+    max-width: 30rem;
+    width: 21rem;
+    height: auto;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.25rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+
+.quicker-content-img {
+    max-width: 15rem;
+    width: 12rem;
+    padding-top: 0.25rem;
+}
+
+.quicker-content-title {
+    color: hsl(0, 0%, 7%);
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+}
+
+#quicker {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.card-ai {
+    background-color: hsl(39, 100%, 71%);
+    max-width: 30rem;
+    width: 21rem;
+    height: auto;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 2rem;
+    padding-bottom: 1.25rem;
+    align-items: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+
+.ai-title {
+    color: hsl(0, 0%, 7%);
+    font-size: 1.85rem;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.ai-img {
+    max-width: 15rem;
+    width: 13rem;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: hsl(0, 11%, 96%);
+        overflow: auto;
+        padding-top: 10rem;
+        padding-left: 5rem;
+        padding-bottom: 0;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        max-width: 90rem;
+        width: 80rem;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto);
+        column-gap: 0.15rem; 
+        row-gap: 0.15rem; 
+        max-width: 100%;
+        width: 90%;
+        max-height: 100%;
+        height: 50%;
+    }
+
+    .card-quicker-content {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        max-width: 20rem;
+        width: 16rem;
+        max-height: 30rem;
+        height: 26rem;
+    }
+
+    .card-social-media {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+        max-width: 40rem;
+        width: 35rem;
+        max-height: 30rem;
+        height: 21rem;
+        transform: translate(0, 1rem);
+        text-align: center;
+    }
+
+    .stars-img {
+        margin-left: -0.25rem;
+    }
+
+    .social-media-title {
+        max-width: 100%;
+        width: 90%;
+        font-size: 3.75rem;
+        text-align: center;
+        line-height: 4rem;
+    }
+
+    .stars-amount {
+        margin-top: 0.5rem;
+        margin-left: -1rem;
+    }
+
+    .card-schedule-posts {
+        grid-column: 4 / 5;
+        grid-row: 1 / 3;
+        max-width: 30rem;
+        width: 17rem;
+        max-height: 45rem;
+        height: 38rem;
+        transform: translate(1.5rem, 0);
+        overflow: hidden;
+    }
+
+    .schedule-posts-title {
+        max-width: 100%;
+        width: 90%;
+        font-size: 1.9rem;
+        line-height: 1.9rem;
+        margin-left: 1.4rem;
+    }
+
+    .schedule-posts-img {
+        max-width: 30rem;
+        width: 22rem;
+        margin-left: 1.2rem;
+    }
+
+    .schedule-posts-paragraph {
+        font-size: 1.15rem;
+        text-align: left;
+        margin-top: 1rem;
+        margin-left: 1.2rem;
+    }
+
+    .card-ai {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        max-width: 20rem;
+        width: 16rem;
+        max-height: 30rem;
+        height: 28rem;
+        padding: 1.5rem;
+    }
+
+    .ai-title {
+        max-width: 100%;
+        width: 100%;
+        font-size: 2.4rem;
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+
+    .ai-img {
+        margin-top: 1rem;
+    }
+
+    .card-platforms {
+        grid-column: 2 / 3;
+        grid-row: 1 span;
+        max-width: 20rem;
+        width: 16rem;
+        max-height: 20rem;
+        height: 15rem;
+        transform: translate(0, -4rem);
+        overflow: hidden;
+    }
+
+    .platforms-img {
+        max-width: 25rem;
+        width: 18rem;
+        margin-top: 0.5rem;
+        margin-left: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .platforms-title {
+        max-width: 15rem;
+        width: 11rem;
+        font-size: 1.7rem;
+        font-weight: 600;
+        text-align: left;
+        margin-top: -1rem;
+        margin-left: 0.5rem;
+    }
+
+    .card-consistent-schedule {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        max-width: 20rem;
+        width: 17rem;
+        max-height: 20rem;
+        height: 15rem;
+        padding: 2rem;
+        transform: translate(0, -4rem);
+        overflow: hidden;
+    }
+
+    .consistent-schedule-title {
+        font-size: 1.8rem;
+        line-height: 1.7rem;
+        margin-left: -0.5rem;
+        margin-top: -0.4rem;
+    }
+
+    .consistent-schedule-img {
+        max-width: 20rem;
+        width: 12rem;
+        margin-top: 0.5rem;
+        margin-left: -0.5rem;
+    }
+
+    .card-faster-grow {
+        grid-column: 2 / 3;
+        grid-row: 3 / 3;
+        max-width: 20rem;
+        width: 16rem;
+        max-height: 20rem;
+        height: 16rem;
+        transform: translate(0, -17rem);
+    }
+
+    .faster-grow-title {
+        font-size: 4rem;
+        margin-top: 0.5rem;
+    }
+
+    .second-line-faster-grow-title {
+        max-width: 100%;
+        width: 100%;
+        font-size: 1.1rem;
+        margin-top: -1.5rem;
+    }
+
+    .faster-grow-img {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-grow-followers {
+        grid-column: 3 / 5;
+        grid-row: 3 / 4;
+        max-width: 40rem;
+        width: 36.2rem;
+        max-height: 30rem;
+        height: 16rem;
+        transform: translate(0, -17rem);
+    }
+
+    .grow-followers-img {
+        position: relative;
+        max-width: 20rem;
+        width: 14rem;
+        max-height: 20rem;
+        height: 15rem;
+        object-fit: contain;
+        margin-top: -1rem;
+        margin-left: 0.5rem;
+    }
+
+    .grow-followers-title {
+        position: absolute;
+        max-width: 40rem;
+        width: 20rem;
+        font-size: 2.5rem;
+        margin-top: -11rem;
+        margin-left: 15rem;
+        padding-right: 1rem;
+        text-align: left;
+        line-height: 2.5rem;
+    }
+
+}
