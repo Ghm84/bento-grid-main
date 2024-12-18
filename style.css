@@ -314,7 +314,7 @@ body {
     body {
         background-color: hsl(0, 11%, 96%);
         overflow: auto;
-        padding-top: 6rem;
+        padding-top: 5rem;
         padding-left: 5rem;
         padding-bottom: 0;
     }
@@ -417,6 +417,7 @@ body {
         max-height: 30rem;
         height: 28rem;
         padding: 1.5rem;
+        transform: translate(0, 1rem);
     }
 
     .ai-title {
@@ -473,16 +474,19 @@ body {
     }
 
     .consistent-schedule-title {
-        font-size: 1.8rem;
+        max-width: 100%;
+        width: 90%;
+        font-size: 1.7rem;
         line-height: 1.7rem;
         margin-left: -0.5rem;
         margin-top: -0.4rem;
+        padding-top: 0.25rem;
     }
 
     .consistent-schedule-img {
         max-width: 20rem;
-        width: 12rem;
-        margin-top: 0.5rem;
+        width: 13rem;
+        margin-top: 0.25rem;
         margin-left: -0.5rem;
     }
 
@@ -493,7 +497,7 @@ body {
         width: 16rem;
         max-height: 20rem;
         height: 16rem;
-        transform: translate(2rem, -17rem);
+        transform: translate(2rem, -16rem);
     }
 
     .faster-grow-title {
@@ -520,7 +524,7 @@ body {
         width: 37rem;
         max-height: 30rem;
         height: 16rem;
-        transform: translate(2rem, -17rem);
+        transform: translate(2rem, -16rem);
     }
 
     .grow-followers-img {
