@@ -356,7 +356,7 @@ body {
         width: 35rem;
         max-height: 30rem;
         height: 21rem;
-        transform: translate(0, 1rem);
+        transform: translate(2rem, 1rem);
         text-align: center;
     }
 
@@ -384,7 +384,7 @@ body {
         width: 17rem;
         max-height: 45rem;
         height: 38rem;
-        transform: translate(1.5rem, 0);
+        transform: translate(4rem, 0);
         overflow: hidden;
     }
 
@@ -438,7 +438,7 @@ body {
         width: 16rem;
         max-height: 20rem;
         height: 15rem;
-        transform: translate(0, -4rem);
+        transform: translate(2rem, -4rem);
         overflow: hidden;
     }
 
@@ -464,11 +464,11 @@ body {
         grid-column: 3 / 4;
         grid-row: 2 / 3;
         max-width: 20rem;
-        width: 17rem;
+        width: 18rem;
         max-height: 20rem;
         height: 15rem;
         padding: 2rem;
-        transform: translate(0, -4rem);
+        transform: translate(2rem, -4rem);
         overflow: hidden;
     }
 
@@ -493,7 +493,7 @@ body {
         width: 16rem;
         max-height: 20rem;
         height: 16rem;
-        transform: translate(0, -17rem);
+        transform: translate(2rem, -17rem);
     }
 
     .faster-grow-title {
@@ -517,10 +517,10 @@ body {
         grid-column: 3 / 5;
         grid-row: 3 / 4;
         max-width: 40rem;
-        width: 36.2rem;
+        width: 37rem;
         max-height: 30rem;
         height: 16rem;
-        transform: translate(0, -17rem);
+        transform: translate(2rem, -17rem);
     }
 
     .grow-followers-img {
