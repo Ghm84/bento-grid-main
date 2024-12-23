@@ -5,19 +5,14 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     position: absolute;
     background-color: hsl(0, 11%, 96%);
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
     margin-top: 3rem;
-    margin-left: 2rem;
+    margin-left: 5rem;
     margin-right: 2rem;
     margin-bottom: 0.25rem;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .main {
