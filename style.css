@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     max-width: fit-content;
     width: fit-content;
-    margin: 0 auto;
+    margin-left: 2rem;
     padding: 0 auto;
     font-family: "DM Sans";
 }
