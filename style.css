@@ -8,17 +8,18 @@ body {
     position: absolute;
     background-color: hsl(0, 11%, 96%);
     padding: 1rem;
-    margin: 0 auto;
     overflow: auto;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    max-width: fit-content;
-    width: fit-content;
-    margin-left: 2.5rem;
+    max-width: 50rem;
+    width: 40rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
     margin-right: 2.5rem;
+    margin-bottom: 3rem;
     padding: 0 auto;
     font-family: "DM Sans";
 }
@@ -312,7 +313,6 @@ body {
 
     body {
         background-color: hsl(0, 11%, 96%);
-        
         padding-bottom: 0;
         overflow: auto;
     }
