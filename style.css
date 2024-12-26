@@ -313,6 +313,7 @@ body {
 
     body {
         background-color: hsl(0, 11%, 96%);
+        padding-top: 12rem;
         padding-bottom: 0;
         overflow: auto;
     }
@@ -322,7 +323,7 @@ body {
         flex-direction: row;
         max-width: 90rem;
         width: 80rem;
-        margin: 0 auto;
+        margin-left: 2rem;
         padding-bottom: 0;
     }
 
